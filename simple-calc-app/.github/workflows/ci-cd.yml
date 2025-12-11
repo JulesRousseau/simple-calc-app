@@ -8,7 +8,7 @@ on:
 
 env:
         NODE_VERSION: "18"
-        DOCKER_IMAGE_NAME: ${{ vars.DOCKERHUB_USERNAME }}
+        DOCKER_IMAGE_NAME: ${{ vars.DOCKERHUB_USERNAME }}/simple-calc-app
 
 jobs:
         build:
